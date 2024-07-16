@@ -1,0 +1,204 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #eef7ff;
+}
+
+header {
+  background-color: #ecffe6;
+  height: 120px;
+}
+
+header:hover {
+  background-color: #eef7ff;
+}
+
+.header-photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  right: 620px;
+  top: 6px;
+}
+
+#top-container {
+  background-color: #ecffe6;
+}
+#mid-container1,
+#mid-container2,
+#bottom-conatiner {
+  line-height: 2;
+}
+hr {
+  border: dotted #b5c0d0 5px;
+  border-bottom: none;
+  width: 5%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cloud1 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 70px;
+  left: 250px;
+}
+
+.cloud2 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  bottom: 20px;
+  right: 200px;
+}
+
+.mountain {
+  height: 350px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 5.625rem;
+  color: #77e4c8;
+  font-family: "Farsan", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.webd {
+  font-size: 2.5rem;
+  color: #36c2ce;
+  margin: 0;
+}
+
+.my-img {
+  border-radius: 40%;
+  height: 200px;
+  width: 200px;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.1875rem;
+  color: #36c2ce;
+}
+
+h3 {
+  color: #80c4e9;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.125rem;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.dev {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.dev-message {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.f1 {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.f1-message {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.last-message {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 1.375rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background: #4987ad;
+  background-image: -webkit-linear-gradient(top, #4987ad, #3498db);
+  background-image: -moz-linear-gradient(top, #4987ad, #3498db);
+  background-image: -ms-linear-gradient(top, #4987ad, #3498db);
+  background-image: -o-linear-gradient(top, #4987ad, #3498db);
+  background-image: linear-gradient(to bottom, #4987ad, #3498db);
+  text-decoration: none;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #ecffe6;
+  margin-top: 50px;
+}
+
+.footer {
+  padding-right: 100px;
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  color: #80c4e9;
+  font-size: 1.2rem;
+}
+
+.footer:hover {
+  color: #36c2ce;
+}
+
+.copyright {
+  position: relative;
+  top: 100px;
+  color: #80c4e9;
+  font-size: small;
+}
